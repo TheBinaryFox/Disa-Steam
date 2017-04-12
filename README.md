@@ -5,12 +5,15 @@ A plugin for Disa that adds support for Steam community chat.
 Features
 --------
 **Features supported:**
-- Steam chat support.
-- SteamGuard/2FA support.
+- Nothing, yet.
 
 **Features planned:**
+- A working Disa plugin.
+- SteamGuard support.
+- Steam chat support.
+- Steam group chat support.
 - Steam emoticons. *(through :emote: codes)*
-- Group chat support.
+- Real localization strings support.
 
 Screenshots
 -----------
@@ -18,4 +21,7 @@ No screenshots available (yet!)
 
 Install
 -------
+[Changelog](https://thebinaryfox.github.io/Disa-Steam/changelog/)
+
 No installation available (yet!)
+
