@@ -36,7 +36,11 @@ changelog > version {
 	font-weight: bold;
 }
 
-changelog > version > number::before {
+changelog > version[upcoming] > number::before {
+	content: 'Upcoming';
+}
+
+changelog > version:not([upcoming]) > number::before {
 	content: 'Version ';
 	order: 0;
 }
@@ -64,6 +68,10 @@ changelog > changes {
 	padding: 5px 3px 15px 3px;
 
 	border-bottom: #444 1px solid;
+}
+
+changelog:last-child > changes {
+	border-bottom: none;
 }
 
 changelog > changes > * {
@@ -105,7 +113,7 @@ changelog > changes > changed::before {
 }
 
 /* Changelog Hiding */
-changelog:not(:first-child) > changes {
+changelog:not(:nth-child(2)) > changes {
 	display: none;
 }
 
