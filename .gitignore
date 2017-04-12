@@ -1,0 +1,13 @@
+# System
+.DS_Store
+._*
+
+# IDE
+.idea
+.*.swp
+
+# Build
+/packages
+/*/bin
+/*/obj
+

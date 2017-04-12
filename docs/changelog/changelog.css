@@ -1,0 +1,119 @@
+@charset "utf-8";
+
+body {
+	margin: 0;
+	padding: 0;
+
+	background: #1b2838;
+	color: #fff;
+
+	font-family: 'Raleway';
+	font-size: 15px;
+}
+
+changelog {
+	display: block;
+}
+
+/* Changelog Header */
+changelog > version,
+changelog > version::before {
+	font-size: 18px;
+}
+
+changelog > version {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+	padding: 5px;
+
+	border-bottom: #444 1px solid;
+
+	color: #fff;
+	background: #1f1f1f;
+
+	font-weight: bold;
+}
+
+changelog > version > number::before {
+	content: 'Version ';
+	order: 0;
+}
+
+changelog > version > number {
+	order: 1;
+	margin-right: 5px;
+}
+
+changelog > version > tag {
+	color: #aaa;
+	order: 5;
+}
+
+changelog > version > date {
+	order: 10;
+
+	margin-left: auto;
+}
+
+/* Changelog Changes */
+changelog > changes {
+	display: block;
+
+	padding: 5px 3px 15px 3px;
+
+	border-bottom: #444 1px solid;
+}
+
+changelog > changes > * {
+	display: block;
+
+	margin-bottom: 2px;
+
+	text-shadow: rgba(0, 0, 0, 0.5) 0px 0px 1px;
+}
+
+changelog > changes > *::before {
+	display: inline-block;
+
+	width: 80px;
+	line-height: 12px;
+
+	font-family: 'Changa';
+	font-weight: 200;
+}
+
+changelog > changes > added::before {
+	content: 'Added: ';
+	color: #84d084;
+}
+
+changelog > changes > removed::before {
+	content: 'Removed: ';
+	color: #d08484;
+}
+
+changelog > changes > fixed::before {
+	content: 'Fixed: ';
+	color: #84c8d0;
+}
+
+changelog > changes > changed::before {
+	content: 'Changed: ';
+	color: #d0cf84;
+}
+
+/* Changelog Hiding */
+changelog:not(:first-child) > changes {
+	display: none;
+}
+
+changelog.show > changes {
+	display: block !important;
+}
+
+changelog.hide > changes {
+	display: none !important;
+}
+

@@ -1,0 +1,3 @@
+[submodule "submodules/DisaOpenSource"]
+	path = submodules/DisaOpenSource
+	url = https://github.com/Disa-im/DisaOpenSource.git

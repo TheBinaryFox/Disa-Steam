@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.0.0
+MinimumVisualStudioVersion = 10.0.0.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Disa.Framework.Steam", "Disa.Framework.Steam/Disa.Framework.Steam.csproj", "{466790F3-F53A-484B-AA50-3203E3F221AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Disa.Framework.Steam.Mobile", "Disa.Framework.Steam.Mobile\Disa.Framework.Steam.Mobile.csproj", "{DAC18E0C-2841-44FF-A411-1E24AE2D4DBC}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Disa.Framework.Shared", "submodules\DisaOpenSource\Disa.Framework.Shared\Disa.Framework.Shared.shproj", "{78848CF0-7246-4463-A01F-B6E2A8133196}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Disa.Framework.Mobile.Shared", "submodules\DisaOpenSource\Disa.Framework.Mobile.Shared\Disa.Framework.Mobile.Shared.shproj", "{3EC88EF4-ED80-4B79-9B7E-E842A94076A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Disa.Framework.Mobile", "submodules\DisaOpenSource\Disa.Framework.Mobile\Disa.Framework.Mobile.csproj", "{82CC4D09-0EF8-4FA2-B339-5DA808F27856}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Disa.Framework", "submodules\DisaOpenSource\Disa.Framework\Disa.Framework.csproj", "{9F73B5C0-CCEC-43B5-9298-E1F1D6826169}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{466790F3-F53A-484B-AA50-3203E3F221AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{466790F3-F53A-484B-AA50-3203E3F221AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{466790F3-F53A-484B-AA50-3203E3F221AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{466790F3-F53A-484B-AA50-3203E3F221AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAC18E0C-2841-44FF-A411-1E24AE2D4DBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAC18E0C-2841-44FF-A411-1E24AE2D4DBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAC18E0C-2841-44FF-A411-1E24AE2D4DBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAC18E0C-2841-44FF-A411-1E24AE2D4DBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82CC4D09-0EF8-4FA2-B339-5DA808F27856}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82CC4D09-0EF8-4FA2-B339-5DA808F27856}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82CC4D09-0EF8-4FA2-B339-5DA808F27856}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82CC4D09-0EF8-4FA2-B339-5DA808F27856}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F73B5C0-CCEC-43B5-9298-E1F1D6826169}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F73B5C0-CCEC-43B5-9298-E1F1D6826169}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F73B5C0-CCEC-43B5-9298-E1F1D6826169}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F73B5C0-CCEC-43B5-9298-E1F1D6826169}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
