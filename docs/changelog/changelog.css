@@ -37,7 +37,7 @@ changelog > version {
 }
 
 changelog > version[upcoming] > number::before {
-	content: 'Upcoming';
+	content: 'Upcoming ';
 }
 
 changelog > version:not([upcoming]) > number::before {

@@ -21,7 +21,7 @@ No screenshots available (yet!)
 
 Install
 -------
-[Changelog](https://thebinaryfox.github.io/Disa-Steam/changelog/)
+[Changelog](https://thebinaryfox.github.io/Disa-Steam/changelog/#all)
 
 No installation available (yet!)
 
